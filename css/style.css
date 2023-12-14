@@ -1,0 +1,207 @@
+* {
+    padding: 0%;
+    margin: 0%;
+   
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.font {
+    font-family: 'MuseoModerno', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.header-background {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.foto-logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.img-hoogte{
+    position: absolute;
+    top: 13px;
+}
+.logo-tekst {
+    position: absolute;
+    left: 80px;
+}
+
+.socials {
+    height: 40px;
+}
+
+.github {
+    position: absolute;
+    right: 10px;
+}
+
+.facebook {
+    position: absolute;
+    right: 60px;
+}
+
+.whatsapp {
+    position: absolute;
+    right: 110px;
+}
+
+.nav-home {
+    position: absolute;
+    left: 570px;
+}
+
+.nav-design {
+    position: absolute;
+    left: 700px;
+}
+
+.nav-about {
+    position: absolute;
+    left: 840px;
+}
+
+
+.top{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+a{ 
+    font-family: 'MuseoModerno', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    text-decoration:none;
+
+}
+
+p{ 
+    font-family: 'MuseoModerno', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    text-decoration:none;
+
+}
+.header-hey {
+    position: absolute;
+    left: 620px;
+    top: 300px;
+}
+
+.header-vak-mij{
+    height: 800px;
+    width: 800px;
+    border-radius: 50px;
+    background-color:#7182AF ;
+    position: absolute;
+    left: 332px;
+    top: 500px;
+}
+
+
+
+
+.top-vak-mij{
+    display: flex;
+    width: 800px;
+    height: 65px;
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px;
+    background-color: #5F6D91;
+}
+
+.rondje-vak-mij{
+   display: flex;
+   justify-content: center;
+    margin-top :15px !important;
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #8EA1D1;
+}
+.een{
+    margin-left: 23px;
+}
+.tekst-header-vak-mij{
+    margin: 75x;
+    text-align: center;
+    width: 640px;
+    height: 240px;
+    
+}
+
+.vak-mij-splits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+height: 45%;
+
+}
+.foto-wout{
+    width: 80%;
+    height: 90%;
+    background-color: antiquewhite;
+}
+
+
+
+.teks-vak {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 44%);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: 85%  ;
+    }
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
+
+
+
+    h1{
+        font-size: 40px;
+        color: #335CE6;
+    }
+    h2{
+        font-size: 30px;
+        color: white;
+    }
+
+    .info-foto{
+        width: 100%;
+     }   
+
+     h3{
+        font-size: 40px;
+        color: #15A4B4;
+    }
+
+
+    .groen-vlak{
+        background-color: azure;
+        height: 750px;
+        
+    }
