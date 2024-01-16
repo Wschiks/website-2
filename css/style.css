@@ -117,13 +117,13 @@ p {
 }
 
 .header-vak-mij {
-    height: 800px;
-    width: 800px;
+    height: 20vh;
+    width: 50vw;
     border-radius: 50px;
     background-color: #7182AF;
     position: absolute;
-    left: 332px;
-    top: 500px;
+    left: 25vw;
+    top: 80vh;
 }
 
 
@@ -182,7 +182,7 @@ p {
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(2, 44%);
+    grid-template-columns: repeat(2, 44%); 
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
