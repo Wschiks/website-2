@@ -11,7 +11,7 @@ body {
 
 .font {
     font-family: 'MuseoModerno', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
@@ -60,18 +60,18 @@ body {
 }
 
 .nav-home {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     left: 39vw;
-   
+
 }
 
 .nav-design {
     text-align: center;
     position: absolute;
-     left: 46vw;
-    
+    left: 46vw;
+
 }
 
 .nav-about {
@@ -83,16 +83,19 @@ justify-content: space-between;
 
 
 
-.top {
+.zwart {
     width: 100%;
     height: 1100px;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
+@media only screen and (max-width: 600px) {
+    .zwart {
+     height: 500px;
+  }
+}
 a {
     font-family: 'MuseoModerno', sans-serif;
     color: white;
@@ -115,9 +118,18 @@ p {
 
 .header-hey {
     position: absolute;
-    left: 41vw;
+    left: 36.5vw;
     top: 35vh;
+    font-size: 3vw;
 }
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .header-hey {
+     top: 13vh;
+    }
+  }
 
 .header-vak-mij {
     height: 80vh;
@@ -130,6 +142,12 @@ p {
 }
 
 
+  @media only screen and (max-width: 600px) {
+    .header-vak-mij {
+      height: 30vh;
+      top: 20vh;
+    }
+  }
 
 
 .top-vak-mij {
@@ -141,7 +159,11 @@ p {
     border-top-right-radius: 50px;
     background-color: #5F6D91;
 }
-
+@media only screen and (max-width: 600px) {
+    .top-vak-mij {
+      height: 5vh;
+    }
+  }
 .rondje-vak-mij {
     display: flex;
     justify-content: center;
@@ -158,14 +180,18 @@ p {
 
 .tekst-header-vak-mij {
     display: flex;
-    flex-wrap: wrap;
-    margin: 75x;
+    overflow-wrap: break-word;
     text-align: center;
-    width: 640px;
+    top: 10vh;
+    width: 44vw;
     height: 40vh;
-    font-size: 2vw !important ;  
-
+    font-size: 2vw !important;
 }
+@media only screen and (max-width: 600px) {
+    .tekst-header-vak-mij {
+     top: 5vh;
+    }
+  }
 
 .vak-mij-splits {
     display: flex;
@@ -177,40 +203,35 @@ p {
 }
 
 .foto-wout {
-    width: 80%;
-    height: 90%;
+
+    width: 40vw;
+    height: 17vw;
     background-color: antiquewhite;
 }
-
-
+.foto{
+    width: 40vw;
+    height:17vw ;
+}
 
 .teks-vak {
     display: grid;
 
     align-items: center;
     justify-content: center;
-    grid-template-columns: repeat(2, 610px);
-    grid-template-rows: repeat(auto-fit, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(2, 75vh);
+    grid-template-rows: repeat(auto-fit, 20vw);
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
     width: 85%;
-
 }
 
-@media only screen and (max-width: 1200px) {
-    .div1, .div2, .div3 , .div4, .div5, .div6  {
-        width: 500px;
-        height: auto;
+@media only screen and (max-width: 600px) {
+    .teks-vak {
+        grid-template-columns: repeat(2, 30vh);
     }
-    h2{
-        font-size: 12px;
-        color: lightcoral;
-    }
-    h3{
-        font-size: 18px;
-        color: peru;
-    }
-}
+  }
+
+
 
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -242,40 +263,77 @@ p {
 
 
 h1 {
-    font-size: 40px;
+    font-size: 3vw;
     color: #335CE6;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
 }
 
 .info-foto {
-    width: 100%;
+    width: 37vw;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 3vw;
     color: #15A4B4;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .voeter {
     width: 100%;
-    height: 300px;
-    background-color: yellow;
+    height: 400px;
+    background: linear-gradient(to bottom, #0C176C 25%, #3b55e7 60%, #4576EA 80%);
     display: flex;
     justify-content: center;
 }
 
 .footerBalk {
     display: flex;
-    align-content: center;
-    background-color: rgb(177, 27, 0);
-    width: 100%;
+    background-color: #0C176C;
+    width: 33.3%;
     height: 80px;
+    align-items: center;
 }
 
+.footerLogo {
+    width: auto;
+    height: 100%;
+}
+
+.links {
+    background-color: forestgreen;
+}
+
+.midden {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rechts {
+    background-color: mediumspringgreen;
+}
 
 #button {
     display: flex;
@@ -295,7 +353,7 @@ h3 {
 
 
 
-.zwartAchtergrond{
+.zwartAchtergrond {
     display: flex;
     align-items: center;
     width: 100%;
@@ -313,49 +371,54 @@ h3 {
 
 
 /** moet in de afbeelding er boven**/
-.vakOmDeVierVakken{
+.vakOmDeVierVakken {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.vierVakken{
+
+.vierVakken {
     margin: 20px;
-    height:450px;
+    height: 450px;
     width: 300px;
     background-color: #E8E8E8;
     border-radius: 40px;
 }
-.balkInVak{
+
+.balkInVak {
     display: flex;
     align-items: center;
     width: 100%;
     height: 60px;
     background-color: #5F6D91;
-    border-top-left-radius : 40px;
-    border-top-right-radius : 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
-.rondjeInVak{
+
+.rondjeInVak {
     margin: 3px;
     height: 20px;
     width: 20px;
     border-radius: 20px;
     background-color: #8EA1D1;
 }
-.eerste{
+
+.eerste {
     margin-left: 15px;
 }
 
-.backgroundTeks{
-  
+.backgroundTeks {
+
     width: 100%;
     height: 150px;
     background-color: #8EA1D1;
 }
-.backgroundCollor{
+
+.backgroundCollor {
 
     width: 100%;
     height: 150px;
-    background-color:#D6D6D6 ;
-}   
+    background-color: #D6D6D6;
+}
